@@ -17,7 +17,8 @@ export default function Home() {
   }
   return (
     <div className="App">
-      <button onClick={() => {dowloadFileAtURL(PDF_FILE_URL)}}>Download File</button>
+      <button onClick={() => {dowloadFileAtURL(PDF_FILE_URL)}}>Download File PDF</button>
+      <button onClick={() => {dowloadFileAtURL(PDF_FILE_URL)}}>Download File PNG</button>
     </div>
   );
 }
